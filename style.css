@@ -1,0 +1,87 @@
+body{
+    background: whitesmoke;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textbox{
+    color: black;
+    background: white;
+    box-shadow: 0 0 12px 2px grey;
+    height: 12em;
+    width: 80%;
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 18px;
+    outline: none;
+    overflow: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.keyboard{
+    background: lightgrey;
+    box-shadow: 0 0 12px 2px grey;
+    font-size: 18px;
+    height: 18em;
+    width: 60%;
+    min-width: 34em;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    user-select: none;
+    color: rgb(36, 36, 36);
+}
+.row{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.key{
+    height: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+.spaceKey{
+    height: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: grey;
+    width: 50%;
+    height: 18px;
+}
+.key:active{
+    background-color: white;
+}
+#secondlastrow{
+    width: 80%;
+    margin: 0 auto;
+}
+.spaceKey:active{
+    background-color: white;
+}
+.enterKey{
+    height: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+.enterKey:active{
+    background-color: white;
+}
+.capsLockKey{
+    height: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+.backspaceKey{
+    height: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+.backspaceKey:active{
+    background-color: white;
+}
+.active{
+    background-color: white;
+}
