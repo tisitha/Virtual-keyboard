@@ -14,7 +14,7 @@ enterKey.addEventListener("click",function(){
 
 spaceKey.addEventListener("click",function(){
     let contain = textBox.innerHTML;
-    let newContain = contain + "&nbsp;";
+    let newContain = contain + " ";
     textBox.innerHTML = newContain;
 })
 
